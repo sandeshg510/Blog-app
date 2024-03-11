@@ -54,7 +54,10 @@ class _LoginPageState extends State<LoginPage> {
                 controller: passwordController,
               ),
               verticalSizedBox(20),
-              const AuthGradientButton(title: 'Sign In'),
+              AuthGradientButton(
+                title: 'Sign In',
+                onPressed: () {},
+              ),
               verticalSizedBox(20),
               GestureDetector(
                 onTap: () {
